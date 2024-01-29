@@ -1,0 +1,57 @@
+body {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.container {
+    height: 300px;
+    width: 800px;
+    border: 2px solid black;
+    display: flex;
+    /* text-align: inherit; */
+    flex-direction: row;
+    justify-content: center;
+}
+
+div {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    position: relative;
+}
+
+
+
+/* .container {
+    height: 300px;
+    width: 800px;
+    border: 2px solid black;
+    text-align: center;
+    position: relative;
+    left: 18%;
+}
+
+.container div {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+} */
+
+
+.box1 {
+    background-color: aqua;
+}
+.box2 {
+    background-color: red;
+}
+.box3 {
+    background-color: green;
+}
+.box4 {
+    background-color: blue;
+}
+.box5 {
+    background-color: yellow;
+}

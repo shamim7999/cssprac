@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 200px;
+    color: white;
+}
+
+#navbar {
+    background-color: black;
+    height: 80px;
+}
+
+button {
+   background-color: #f08804;
+}
+
+#logo {
+    color: #f08804;
+    font-size: 25px;
+}
+
+#content {
+    height: 1500px;
+}
+
+#content div {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+.contentBox1 {
+    position: absolute;
+    top: 200px;
+    background-image: url("../image/shavkat.jpeg");
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.contentBox2 {
+    background-image: url("../image/spider.png");
+    background-size: cover;
+}
+
+.contentBox3 {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    border: 2px solid black;
+    height: 4%;
+    
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
