@@ -6,19 +6,22 @@ body {
 
 .container {
     height: 300px;
-    width: 800px;
+    width: 900px;
     border: 2px solid black;
     display: flex;
     /* text-align: inherit; */
     flex-direction: row;
     justify-content: center;
+    /* flex-wrap: wrap; */
+    /* align-items: center; */
+    /* align-content: flex-start; */
 }
 
 div {
     display: inline-block;
-    height: 100px;
-    width: 100px;
-    position: relative;
+    height: 80px;
+    width: 40px;
+    border: 2px solid black;
 }
 
 
@@ -42,12 +45,16 @@ div {
 
 .box1 {
     background-color: aqua;
+    flex-grow: 1;
 }
 .box2 {
     background-color: red;
+    height: 200px;
+    flex-grow: 2;
 }
 .box3 {
     background-color: green;
+    height: 50px;
 }
 .box4 {
     background-color: blue;
