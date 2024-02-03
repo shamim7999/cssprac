@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightcoral;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container > div {
+    width: 80px;
+    font-size: 30px;
+    margin: 10px;
+    padding: 20px;  
+   
+}
+
+.one {
+    background-color: red;
+}
+.two {
+    background-color: green;
+}
+.three {
+    background-color: red;
+}
+.four {
+    background-color: green;
+}
+
+.five {
+    background-color: red;
+}
+.six {
+    background-color: green;
+}
+.seven {
+    background-color: red;
+}
+.eight {
+    background-color: green;
+}

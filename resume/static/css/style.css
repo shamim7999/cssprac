@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: lightblue;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 100%;
+    position: relative;
+    max-width: 1000px;
+    height: 1000px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 35px rgba(0, 0, 0, 0.9);
+    margin-top: 20px;
+}
+
+.profileText {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.profileText .imgBx {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profileText .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.profileText h2 {
+    font-weight: 600;
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.4em;
+}
+
+.profileText h2 span {
+    font-weight: 300;
+    font-size: 0.8em;
+}
+
+.contactInfo {
+    padding-top: 40px;
+}
+
+.contactInfo ul {
+    position: relative;
+}
+
+.contactInfo ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.contactInfo ul li i {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+
+.contactInfo ul li span {
+    font-weight: 300;
+    color: #fff;
+}
+
+.contactInfo.education li{
+    margin-bottom: 15px;
+}
+
+.contactInfo.education  h5 {
+    color: #03a9f4;
+    font-weight: 500;
+}
+
+
+.contactInfo.education h4:nth-child(2) {
+    color: #fff;
+    font-weight: 500;
+}
+
+.contactInfo.education h4 {
+    color: #fff;
+    font-weight: 300;
+}
+
+.title {
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.container .left_side {
+    position: relative;
+    background: #003147;
+    padding: 40px;
+}
+
+.container .right_side {
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+
