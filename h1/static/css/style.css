@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+.box1 {
+    margin: 50px;
+    border: 5px solid red;
+    padding: 120px 150px;
+}
+.box2 {
+    border: 1px solid #000;
+    text-align: center;
+}
+.box2:hover {
+    background: red;
+    color: white;
+}
+
+.box2:active {
+    background: green;
+    color: red;
+}

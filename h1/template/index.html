@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="box1">
+        <div class="box2">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum, sint.</p>
+        </div>
+    </div>
+
+    <select id="mySelect" class="form-select" aria-label="Default select example" onchange="redirect()">
+        <option selected>Open this select menu</option>
+        <option value="https://www.google.com">Google</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+    </select>
+    
+    <script>
+        function redirect() {
+            var select = document.getElementById("mySelect");
+            var selectedOption = select.options[select.selectedIndex];
+    
+            if (selectedOption.value.startsWith("http")) {
+                window.location.href = selectedOption.value;
+            }
+        }
+    </script>
+
+</body>
+</html>
