@@ -213,3 +213,7 @@ p{
 .interest ul li {
     list-style: none;
 }
+
+.about.interest li i{
+    margin-right: 3px;
+}
