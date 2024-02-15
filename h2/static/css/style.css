@@ -1,0 +1,32 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.bg {
+    width: 350px;
+    height: 400px;
+    background: url('../images/shavkat.jpeg') no-repeat center / cover;
+    position: absolute;    
+}
+
+
+.box {
+    text-align: center;
+    padding: 10px;
+    background: #cac2c2;
+    opacity: 0.4;
+    margin-top: 45%;
+}
+
+.box p {
+    color: #000;
+    font-weight: 700;
+    font-size: larger;
+}
+
+.bg:hover {
+    opacity: 0.9;
+    text-transform: uppercase;
+    box-shadow: #361212;
+}
