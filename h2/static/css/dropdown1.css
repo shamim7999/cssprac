@@ -1,30 +1,45 @@
-body {
+body, div {
     margin: 0;
     padding: 0;
 }
 
 .navbar {
     background: #333;
+    width: 49%;
+    display: inline-block;
+    box-sizing: border-box;
 }
 
 .content {
-    padding: 10px;
-    overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
 
-ul li{
-    list-style-type: none;
-    padding: 10px 20px;
-    float: left;
-}
-
-ul li a {
+.content a {
     text-decoration: none;
-    font-size: 30px;
-    color: #fff;
-    display: inline-block;
+    font-size: 25px;
+    color: aliceblue;
+    padding: 20px;
 }
 
-.dropdown-content a{
+.content a:hover {
+    background-color: gray;
+    color: greenyellow;
     
+}
+
+.navbar2 {
+    background: greenyellow;
+    width: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 900px){
+    .navbar .content {
+        flex-direction: column;
+    }
+    .navbar2 .content {
+        flex-direction: column;
+    }   
 }
