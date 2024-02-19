@@ -98,6 +98,11 @@ hr {
     background: black;
     padding: 20px;
     text-align: center;
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
 }
 
 .footer-container a {
